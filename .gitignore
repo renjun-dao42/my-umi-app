@@ -1,7 +1,8 @@
+# Package manager directories
 /node_modules
-/.env.local
-/.umirc.local.ts
-/config/config.local.ts
+.pnpm-store
+
+# Framework-related files
 /src/.umi
 /src/.umi-production
 /src/.umi-test
@@ -11,3 +12,31 @@
 /dist
 /.mfsu
 .swc
+
+# Environment and configuration
+/.env.local
+/.umirc.local.ts
+/config/config.local.ts
+
+# Language-specific files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
